@@ -1,2 +1,2 @@
-# goit-markup-hw-01
-Model 1 - HTML -1 
+# goit-markup-hw-02
+Model 1 - HTML - 2
