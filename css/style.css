@@ -6,19 +6,19 @@
 }
 
 a,
-ul,
-link {
+ul {
   margin-top: 0;
   margin-bottom: 0px;
   padding-left: 0px;
-  list-style: none;
+}
+a {
   text-decoration: none;
 }
 
 body {
   background-color: #ffffff;
   color: var(--title-text-color);
-  font-family: roboto, sans-serif;
+  font-family: "roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -26,7 +26,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* Header */
+/*========= Header =========*/
 
 .logo {
   color: var(--accent-color);
@@ -38,6 +38,10 @@ body {
 
 .logo:last-child {
   color: var(--title-text-color);
+}
+
+.list {
+  /* text-decoration: none; */
 }
 
 .link {
@@ -60,7 +64,8 @@ body {
   color: var(--secondy-text-color);
 }
 
-/* Hero */
+/*========= END Header =========*/
+/*========= Hero ========= */
 
 .hero h1 {
   background-color: rgba(47, 48, 58, 1);
@@ -98,7 +103,8 @@ body {
   background-color: rgb(19, 129, 220);
 }
 
-/* Action */
+/*========= END Hero ========= */
+/*========= Action =========*/
 
 .title {
   color: var(--title-text-color);
@@ -110,8 +116,8 @@ body {
   color: var(--secondy-text-color);
   line-height: 1.71;
 }
-
-/* Working */
+/*========= END Action =========*/
+/* ========= Working =========*/
 
 .section-title {
   font-size: 36px;
@@ -119,7 +125,8 @@ body {
   /* text-align: center; */
 }
 
-/* Team */
+/* ========= END Working =========*/
+/*=========  Team ========= */
 
 .team-name {
   font-weight: 500;
@@ -135,7 +142,8 @@ body {
   /* text-align: center; */
 }
 
-/* Footer */
+/*========= END Team ========= */
+/*========= Footer =========*/
 
 footer {
   background-color: #2f303a;
@@ -159,3 +167,48 @@ footer a .logo:last-child {
 .footer-contact .link:hover {
   /* color: var(--secondy-text-color); */
 }
+
+/*========= END Footer =========*/
+/* ======== PORTFOLIO =========*/
+
+.filter {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  border: 0;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.filter:focus {
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
+
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filter:hover {
+  border: 2px solid var(--title-text-color);
+  border-radius: 4px;
+}
+
+/* ========= PROJECTS =========*/
+
+.project-name {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-text {
+  color: var(--secondy-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
+/* ======== END PORTFOLIO =========*/
